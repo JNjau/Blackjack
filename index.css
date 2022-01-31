@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: darkslategray;
+    font-size: 3rem;
+}
+
+.output {
+    margin: 3rem auto;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    height: 7rem;
+    border: 5px double #ccc;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 0 0 10px 5px #333;
+}
+
+.Color-Container {
+    max-width: 350px;
+    height: 5rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-pick {
+    margin: 5px;
+    height: 2rem;
+    width: 2rem;
+    border: 1px double #aaa;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.2s ease;
+}
+
+.color-pick:hover {
+    box-shadow: 0 0 5px #333;
+}
+
+.active {
+    border: 2px solid #333;
+    box-shadow: 0 0 5px #333;
+}
